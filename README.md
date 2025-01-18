@@ -39,15 +39,15 @@ Resort to the [rl-theory.ipynb](/theory/rl-theory.ipynb) notebook for an introdu
 - **Math Notation**
 - **The RL Framework/Problem**
 - **Glossary**
-    - Learning frameworks
+    - Learning Frameworks
     - Markov Decision Process (MDP)
     - Markov Chain
     - Agent, Environment and Model
-    - Agent types
-    - Environment types
-    - State space and Observation
-    - Action space
-    - State transition probability distribution
+    - Agent Types
+    - Environment Types
+    - State Space and Observation
+    - Action Space
+    - State Transition Probability Distribution
     - History/Trajectory/Episode/Rollout
     - Horizon and Experience
     - Reward signal, Reward function and Return
@@ -57,13 +57,13 @@ Resort to the [rl-theory.ipynb](/theory/rl-theory.ipynb) notebook for an introdu
     - Advantage Function
     - Exploitation vs Exploration: the RL tradeoff
     - $\epsilon$-greedy policy
-    - Importance sampling
-    - Bootstrapping
-    - Deadly triad issue
+    - Importance Sampling
+    - Bootstrapping and Temporal Difference
+    - Deadly Triad Issue
 - **Taxonomy (extended)**
     - Model-based RL
     - Model-free RL
-    - Dynamic programming methods
+    - Dynamic Programming Methods
         - Policy Iteration
         - Value Iteration
             - Q-learning
@@ -75,8 +75,8 @@ Resort to the [rl-theory.ipynb](/theory/rl-theory.ipynb) notebook for an introdu
         - Deep Q-Network (DQN)
         - Actor-Critic Methods
 - **Open Challenges in RL**
-    - Sparse rewards
-    - Alignment problem
+    - Sparse Rewards
+    - Alignment Problem
 - **Policy Optimization Algorithms**
     - Derivative-free Optimization Algorithms
         - Cross Entropy Method (CEM)
@@ -84,8 +84,7 @@ Resort to the [rl-theory.ipynb](/theory/rl-theory.ipynb) notebook for an introdu
         - Introduction
     - Actor-Critic Algorithms
         - Introduction
-- **Avoiding memory bottlenecks in deep neural networks**
-- **References**
+- **Avoiding Memory Bottlenecks in Deep Neural Networks**
 
 <!-- ################################################################################################################################################ -->
 
