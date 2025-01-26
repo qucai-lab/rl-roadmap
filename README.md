@@ -15,26 +15,21 @@
 </div>
 <br>
 
-<!-- ################################################################################################################################################ -->
-
 # About
 
-Resort to the references section for the mainstay textbooks in reinforcement learning \[[1](#1)] and deep learning \[[2](#2)].
-
-<!-- ################################################################################################################################################ -->
+The goal of this repository is to bridge the gap between theory and implementation of SOTA reinforcement learning (RL) algorithms. 
+Resort to the [rl-theory.ipynb](/theory/rl-theory.ipynb) notebook for a theoretical foundation on RL.
 
 # Algorithms
-
-Resort to the [rl-theory.ipynb](/theory/rl-theory.ipynb) notebook for an introduction to the RL framework.
 
 - [VPG](algorithms/vpg/vpg.ipynb).
 - [DDPG](algorithms/ddpg/ddpg.ipynb).
 - [TRPO](algorithms/trpo/trpo.ipynb).
 - [PPO](algorithms/ppo/ppo.ipynb).
 
-<!-- ################################################################################################################################################ -->
+NumPy implementations for the above actor-critic algorithms will be presented in the near future for research purposes.
 
-# Theory
+# Table of Contents
 
 - **Math Notation**
 - **The RL Framework/Problem**
@@ -49,14 +44,15 @@ Resort to the [rl-theory.ipynb](/theory/rl-theory.ipynb) notebook for an introdu
     - Action Space
     - State Transition Probability Distribution
     - History/Trajectory/Episode/Rollout
-    - Horizon and Experience
-    - Reward signal, Reward function and Return
+    - Horizon, Experience, and Replay Buffer
+    - Reward Signal, Reward Function and Return
+    - Performance Objective
     - Policy
     - Value Functions
     - Bellman Equations
     - Advantage Function
     - Exploitation vs Exploration: the RL tradeoff
-    - $\epsilon$-greedy policy
+    - $\epsilon$-greedy Policy
     - Importance Sampling
     - Bootstrapping and Temporal Difference
     - Deadly Triad Issue
@@ -74,9 +70,6 @@ Resort to the [rl-theory.ipynb](/theory/rl-theory.ipynb) notebook for an introdu
     - Deep RL
         - Deep Q-Network (DQN)
         - Actor-Critic Methods
-- **Open Challenges in RL**
-    - Sparse Rewards
-    - Alignment Problem
 - **Policy Optimization Algorithms**
     - Derivative-free Optimization Algorithms
         - Cross Entropy Method (CEM)
@@ -84,14 +77,17 @@ Resort to the [rl-theory.ipynb](/theory/rl-theory.ipynb) notebook for an introdu
         - Introduction
     - Actor-Critic Algorithms
         - Introduction
+- **Open Challenges in RL**
+    - Sparse Rewards
+    - Alignment Problem
 - **Avoiding Memory Bottlenecks in Deep Neural Networks**
-
-<!-- ################################################################################################################################################ -->
 
 # References 
 
-<a name="1"></a> \[1] "Reinforcement Learning: An Introduction." Richard S. Sutton and Andrew G. Barto. Cambridge, MA: The MIT Press, March 22, 2018, 548 pp.
-    
+[1] "Reinforcement Learning: An Introduction." Richard S. Sutton and Andrew G. Barto. Cambridge, MA: The MIT Press, March 22, 2018, 548 pp.
+
+[2] Deep Learning (Ian J. Goodfellow, Yoshua Bengio and Aaron Courville), MIT Press, 2016.
+
 - Complementary materials: 
     - Courses
         - [UCL COMPM050/COMPGI13 (2015): RL by David Silver](https://www.davidsilver.uk/teaching/).
@@ -102,10 +98,6 @@ Resort to the [rl-theory.ipynb](/theory/rl-theory.ipynb) notebook for an introdu
         - [John Schulman's PhD Thesis](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-217.html).
     - Papers
         - [Williams, R.J. Simple statistical gradient-following algorithms for connectionist reinforcement learning. Mach Learn 8, 229–256 (1992).](https://doi.org/10.1007/BF00992696)
-
-<a name="2"></a> \[2] Deep Learning (Ian J. Goodfellow, Yoshua Bengio and Aaron Courville), MIT Press, 2016.
-
-<!-- ################################################################################################################################################### -->
 
 # License
 
